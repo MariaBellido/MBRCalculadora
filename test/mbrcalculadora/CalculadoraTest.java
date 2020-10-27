@@ -88,10 +88,10 @@ public class CalculadoraTest {
     @Test
     public void testDivision() {
         System.out.println("division");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 8.0;
+        double num2 = 2.0;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 4.0;
         double result = instance.division(num1, num2);
         assertEquals(expResult, result, 0.0);
         
